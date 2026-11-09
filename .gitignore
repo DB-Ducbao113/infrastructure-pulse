@@ -1,0 +1,31 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+coverage/
+
+# Logs & artifacts
+*.log
+*.dump
+*.sql
+backups/
+artifacts/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
